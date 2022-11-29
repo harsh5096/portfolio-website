@@ -1,0 +1,165 @@
+html{
+    font-size:61.5%;
+	overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    border: 2px solid #fafcfa;
+    box-shadow: 6px 5px white;
+    margin-top: -13px;
+    border-radius: 5px;
+    /* background: transparent; */
+}
+
+.logo{
+    margin-top: 25px;
+    font-size: 23px;
+    color:whitesmoke;
+}
+
+ul{display: flex;
+   list-style: none;
+   text-align: center;
+   justify-content: center;
+   margin-top: 0px;
+}
+
+li {
+    padding: 25px;
+    font-size: 20px;
+    margin-top: -8px;
+}
+
+a{
+    font-size: 26px;
+    text-decoration: none;
+    color: #ffc107;
+}
+a:hover{
+    color: white;
+}
+ 
+.whatsapp-link {
+    font-size: 37px;
+    margin-top: 12px;
+}
+
+.fa-brands, .fab {
+    color:white;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.click{
+    background-color: aliceblue;
+}
+
+ion-icon {
+    width: 4rem;
+    height: 8rem;
+}
+.mobile-navbar-btn2{
+    background:transparent;
+    cursor:pointer;
+}
+
+ion-icon[name="menu-outline"] {
+    visibility: hidden;
+    opacity: 0;
+}
+
+ion-icon[name="close-circle-outline"] {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+@media(max-width:980px) {
+    ion-icon[name="menu-outline"] {
+        visibility: visible;
+        opacity: 1;
+    }
+    nav{
+        padding: 0%; 
+        display: flex;
+        width:100%;
+        height:100%;
+        border: 2px solid whitesmoke;
+        background-color: black;
+        position:fixed;
+        top:0;
+        right:-100%;
+        left:0;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem;
+        transition: 1s;
+        transform: translateY(-100vh);
+
+    } 
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }  
+
+    .navbar .responsive_nav{
+        transform: none;
+    }
+
+ .navbar li {
+    padding: 19px;
+}
+
+.navbar a{
+
+    display: block;
+    font-size: 24px;
+    padding:0px;
+    transform: all .50s ease;
+}
+
+.navbar a:hover{
+    color:white;
+    transform: translateY(6px);
+    border-radius: 5px;
+}
+
+.navbar a.active{
+   color:var(--text-color);
+}
+
+.logo {
+    margin-top: 13px;
+    font-size: 30px;
+}
+.whatsapp-link {
+    visibility: hidden;
+    margin-top: 14px;
+}
+
+.mobile-navbar-btn2 {
+    color:aliceblue;
+    margin-right: -82px;
+}
+
+}
+
+
+@media(max-width:675px) {
+    .mobile-navbar-btn2 {
+        margin-right: -45px;
+    }
+}
+
+@media(max-width:500px) {
+    .mobile-navbar-btn2 {
+        margin-right: -5px;
+    }
+}
+
