@@ -3,7 +3,7 @@ import "../components/css/skill.css"
 const Skill = () => {
   return (
     <div className='skill-container'>
-      <div className="skill-image"> <img src="./images/skill.jpg" alt="" /></div>
+      <div className="skill-image"> <img src="./images/skill.JGP" alt="" /></div>
       <div className="skills">
 
   

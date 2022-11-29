@@ -8,7 +8,7 @@ const Service = () => {
 <div className = "Service-container">
 
 <div className="servicesbox">
-  <div className="imgs"><img src="./images/web.jpg" alt="" />
+  <div className="imgs"><img src="./images/web.JPG" alt="" />
   </div>
   <div className="para">
   <h1>Web Development</h1>
@@ -18,7 +18,7 @@ const Service = () => {
 </div>
 
 <div className="servicesbox2">
-  <div className="imgs"><img src="./images/startup.jpg" alt="" />
+  <div className="imgs"><img src="./images/startup.JPG" alt="" />
   </div>
   <div className="para">
     <h1>Website making for new Start Up</h1>
@@ -27,7 +27,7 @@ const Service = () => {
 </div>
 
 <div className="servicesbox">
-  <div className="imgs"><img src="./images/freelencer.jpg" alt="" />
+  <div className="imgs"><img src="./images/freelencer.JPG" alt="" />
   </div>
   <div className="para">
     <h1>Freelancer</h1>
