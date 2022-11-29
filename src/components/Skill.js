@@ -18,6 +18,7 @@ const Skill = () => {
         <div className="skill-item">PYTHON : <div className="skillline-9"> </div> </div>
         <div className="skill-item">PHP : <div className="skillline-10"> </div> </div>
         <div className="skill-item">BOOTSTRAP : <div className="skillline-11"> </div> </div>
+        
       </div>
       
     </div>
