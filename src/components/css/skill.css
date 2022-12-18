@@ -13,7 +13,6 @@ body{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 64px;
-    /* margin-left: -500px; */
     border: 2px solid;
     background-color: #f9f6f6;
     padding: 55px;
@@ -41,7 +40,7 @@ border: 2px solid rgb(234, 27, 27);
     width: 500px;
     height: 15px;
     margin-top: 8px;
-    margin-left: 81px;
+    margin-left: 73px;
     background-color: rebeccapurple;
 }
 
@@ -50,19 +49,19 @@ border: 2px solid rgb(234, 27, 27);
     width: 500px;
     height: 15px;
     margin-top: 7px;
-    margin-left: 103px;
+    margin-left: 93px;
     background-color: yellow;
 }
 
-.skillline-3{
-    border: 2px solid #2196f3;
-    width: 350px;
-    height: 16px;
-    margin-top: 8px;
-    margin-left: 52px;
-    background-color: coral;
-    
+.skillline-3 {
+    border: 2px solid rgb(161 54 54);
+    width: 397px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 43px;
+    background-color: #26a4dc;
 }
+
 .skillline-4 {
     border: 2px solid #0e9314;
     width: 400px;
@@ -71,14 +70,14 @@ border: 2px solid rgb(234, 27, 27);
     margin-left: 13px;
     background-color: red;
 
-}
+} 
 .skillline-5 {
     border: 2px solid #2196f3;
     width: 300PX;
     height: 16px;
     margin-top: 8px;
     background-color: #ec1a7773;
-    margin-left: 64px;
+    margin-left: 51px;
 }
 
 .skillline-6 {
@@ -87,7 +86,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 310PX;
         height: 16px;
         margin-top: 8px;
-        margin-left: 60px;
+        margin-left: 46px;
         background-color: #03a9f4;
     
 }
@@ -96,7 +95,7 @@ border: 2px solid rgb(234, 27, 27);
     width: 400PX;
     height: 15PX;
     margin-top: 7px;
-    margin-left: 50px;
+    margin-left: 38px;
     background-color: #ff9800;
 }
 .skillline-8 {
@@ -112,7 +111,7 @@ border: 2px solid rgb(234, 27, 27);
     width: 200PX;
     height: 15px;
     margin-top: 7px;
-    margin-left: 63px;
+    margin-left: 53px;
     background-color: fuchsia;
 }
 .skillline-10 {
@@ -120,7 +119,7 @@ border: 2px solid rgb(234, 27, 27);
     width: 300px;
     height: 15px;
     margin-top: 8px;
-    margin-left: 103px;
+    margin-left: 95px;
     background-color: #8bc34a;
 }
 .skillline-11 {
@@ -128,7 +127,7 @@ border: 2px solid rgb(234, 27, 27);
     width: 450px;
     height: 15px;
     margin-top: 8px;
-    margin-left: 29px;
+    margin-left: 18px;
     background-color: #b28922;
 }
 
@@ -139,7 +138,6 @@ border: 2px solid rgb(234, 27, 27);
         align-items: center;
         justify-content: space-between;
         margin-top: 64px;
-        /* margin-left: -500px; */
         border: 2px solid;
         background-color: #f9f6f6;
         padding: 55px;
@@ -148,13 +146,16 @@ border: 2px solid rgb(234, 27, 27);
         border-radius: 33px;
     }
 }
+
+ 
+
 @media (max-width:1350px) {
     .skill-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: 64px;
-        /* margin-left: -500px; */
+      
         border: 2px solid;
         background-color: #f9f6f6;
         padding: 55px;
@@ -162,152 +163,109 @@ border: 2px solid rgb(234, 27, 27);
         margin-right: 19px;
         border-radius: 33px;
     }
-}
-@media (max-width:1350px) {
-    .skill-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 64px;
-        /* margin-left: -500px; */
-        border: 2px solid;
-        background-color: #f9f6f6;
-        padding: 55px;
-        margin-left: 19px;
-        margin-right: 19px;
-        border-radius: 33px;
-    }
-    .skill-item {
-        display: flex;
-        padding: 0px;
-        font-size: 13px;
-        color: white;
-        margin: 18px;
-    }
-    .skill-container img {
-        width: 370px;
-        height: 481px;
-        border: 4PX SOLID black;
-        border-radius: 35px;
-    }
-}
-@media (max-width:1221px) {
-    .skill-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 64px;
-        /* margin-left: -500px; */
-        border: 2px solid;
-        background-color: #f9f6f6;
-        padding: 55px;
-        margin-left: 11px;
-        margin-right: 19px;
-        border-radius: 33px;
-    }
-    .skill-item {
-        display: flex;
-        padding: 0px;
-        font-size: 13px;
-        color: white;
-        margin: 18px;
-    }
-    .skills {
-        border: 2px solid black;
-        border-radius: 15px;
-        background-color: black;
-        margin-right: -58px;
-    }
-    .skill-container img {
-        width: 370px;
-        height: 481px;
-        margin-left: -63px;
-        border: 4PX SOLID black;
-        border-radius: 35px;
-    }
-}
 
+    }
+
+    @media(max-width:1260px){
+        .skill-container img {
+            width: 350px;
+            margin-top: 95px;
+            height: 500px;
+            border: 4PX SOLID black;
+            border-radius: 35px;
+        }
+    }
+
+    @media (max-width:1221px) {
+        .skill-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 64px;
+            border: 2px solid;
+            background-color: #f9f6f6;
+            padding: 55px;
+            margin-left: 11px;
+            margin-right: 19px;
+            border-radius: 33px;
+        }
+        .skills {
+            width: 677px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: black;
+            margin-right: -58px;
+        }
+        .skill-item {
+            display: flex;
+            padding: 0px;
+            font-size: 13px;
+            color: white;
+            margin: 18px;
+        }
+        
+        .skill-container img {
+            width: 320px;
+            height: 456px;
+            margin-left: -63px;
+            border: 4PX SOLID black;
+            border-radius: 35px;
+            margin-top:0px;
+        }
+        .skillline-1 {
+            margin-top: 2px;
+            margin-left: 55px;
+        }
+        .skillline-2 {
+            margin-top: 2px;
+            margin-left: 68px;
+        }
+        .skillline-3 {
+            margin-top: 2px;
+            margin-left: 34px;
+        }
+        .skillline-4 {
+            margin-top: 2px;
+            margin-left: 13px;
+        }
+        .skillline-5 {
+            margin-top: 2px;
+            margin-left: 39px;
+        }
+        .skillline-6 {
+            margin-top: 2px;
+            margin-left: 36px;
+        }
+        .skillline-7 {
+            margin-top: 2px;
+            margin-left: 31px;
+        }
+        .skillline-8 {
+            margin-top: 2px;
+            margin-left: 36px;
+        }
+        .skillline-9 {
+            margin-top: 2px;
+            margin-left: 42px;
+        }
+        .skillline-10 {
+            margin-top: 2px;
+            margin-left: 70px;
+        }
+        .skillline-11 {
+            margin-top: 2px;
+            margin-left: 16px;
+        }
+          
+    }    
+     
+ 
 @media (max-width:1113px) {
     .skill-container {
         display: flex;
         align-items: center;
         justify-content: space-around;
         margin-top: 64px;
-        /* margin-left: -500px; */
-        border: 2px solid;
-        background-color: #f9f6f6;
-        padding: 55px;
-        margin-left: 11px;
-        margin-right: 19px;
-        border-radius: 33px;
-    }
-    .skill-item {
-        display: flex;
-        padding: 0px;
-        font-size: 13px;
-        color: white;
-        margin: 18px;
-    }
-    .skills {
-        border: 2px solid black;
-        border-radius: 15px;
-        background-color: black;
-        margin-right: -42px;
-    }
-    .skill-container img {
-        width: 300px;
-        height: 481px;
-        margin-left: -47px;
-        border: 4PX SOLID black;
-        border-radius: 35px;
-        /* margin-left:-47px; */
-    }
-}
-@media (max-width:1221px) {
-    .skill-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 64px;
-        /* margin-left: -500px; */
-        border: 2px solid;
-        background-color: #f9f6f6;
-        padding: 55px;
-        margin-left: 11px;
-        margin-right: 19px;
-        border-radius: 33px;
-    }
-    .skills {
-        width: 677px;
-        border: 2px solid black;
-        border-radius: 15px;
-        background-color: black;
-        margin-right: -58px;
-    }
-    .skill-item {
-        display: flex;
-        padding: 0px;
-        font-size: 13px;
-        color: white;
-        margin: 18px;
-    }
-    
-    .skill-container img {
-        width: 320px;
-        height: 456px;
-        margin-left: -63px;
-        border: 4PX SOLID black;
-        border-radius: 35px;
-    }
-}
-
-@media (max-width:1113px) {
-    .skill-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 64px;
-        /* margin-left: -500px; */
         border: 2px solid;
         background-color: #f9f6f6;
         padding: 57px;
@@ -316,7 +274,7 @@ border: 2px solid rgb(234, 27, 27);
         border-radius: 33px;
     }
     .skills {
-        width: 513px;
+        width: 515px;
         border: 2px solid black;
         border-radius: 15px;
         background-color: black;
@@ -329,28 +287,27 @@ border: 2px solid rgb(234, 27, 27);
         color: white;
         margin: 18px;
     }
-    .skillline-1 {
-        border: 2px solid rgb(234, 27, 27);
-        width: 350px;
-        height: 10px;
-        margin-top: 5px;
-        margin-left: 76px;
-        background-color: rebeccapurple;
-    }
-    .skillline-2 {
-        border: 2px solid #74d023;
-        width: 350px;
+     .skillline-1 {
+        border: 2px solid #2196f3;
+        width: 300px;
         height: 8px;
-        margin-top: 5px;
-        margin-left: 76px;
-        background-color: yellow;
+        margin-top: 4px;
+        margin-left: 53px;
+     }
+    .skillline-2 {   
+        border: 2px solid #2196f3;
+        width: 300px;
+        height: 8px;  
+        margin-top: 7px;
+        margin-left: 66px;
+
     }
     .skillline-3 {
         border: 2px solid #2196f3;
         width: 300px;
         height: 8px;
-        margin-top: 7px;
-        margin-left: 40px;
+        margin-top: 6px;
+        margin-left: 32px;
         background-color: coral;
     }
     .skillline-4 {
@@ -365,9 +322,9 @@ border: 2px solid rgb(234, 27, 27);
         border: 2px solid #2196f3;
         width: 250px;
         height: 8px;
-        margin-top: 7px;
+        margin-top: 6px;
         background-color: #ec1a7773;
-        margin-left: 48px;
+        margin-left: 41px;
     }
     .skillline-6 {
         border: 2px solid #2196f3;
@@ -375,14 +332,14 @@ border: 2px solid rgb(234, 27, 27);
         height: 8px;
         margin-top: 7px;
         background-color: #ec1a7773;
-        margin-left: 48px;
-    }
+        margin-left: 38px;
+    } 
     .skillline-7 {
         border: 2px solid #ff5722;
         width: 350px;
         height: 8PX;
         margin-top: 6px;
-        margin-left: 35px;
+        margin-left: 32px;
         background-color: #ff9800;
     }
     .skillline-8 {
@@ -390,15 +347,15 @@ border: 2px solid rgb(234, 27, 27);
         width: 350px;
         height: 8px;
         margin-top: 6px;
-        margin-left: 26px;
+        margin-left: 28px;
         background-color: #5acdb0;
     }
     .skillline-9 {
         border: 2px solid hotpink;
         width: 100px;
         height: 5px;
-        margin-top: 5px;
-        margin-left: 47px;
+        margin-top: 7px;
+        margin-left: 41px;
         background-color: fuchsia;
     }
     .skillline-10 {
@@ -406,7 +363,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 200px;
         height: 6px;
         margin-top: 5px;
-        margin-left: 76px;
+        margin-left: 72px;
         background-color: #8bc34a;
     }
     .skillline-11 {
@@ -414,10 +371,28 @@ border: 2px solid rgb(234, 27, 27);
         width: 300px;
         height: 9px;
         margin-top: 6px;
-        margin-left: 23px;
+        margin-left: 18px;
         background-color: #b28922;
+    } 
+         
+    .skill-item {
+        display: flex;
+        padding: 0px;
+        font-size: 13px;
+        color: white;
+        margin: 18px;
     }
-}
+    .skill-container img {
+        width: 370px;
+        height: 481px;
+        border: 4PX SOLID black;
+        border-radius: 35px;
+    }
+} 
+
+
+
+
 
 @media (max-width:992px) {
     .skill-container {
@@ -436,6 +411,15 @@ border: 2px solid rgb(234, 27, 27);
         border-radius: 33px;
     }
     
+}
+@media (max-width:951px) {
+    .skill-container img {
+        margin-left: -52px;
+        width: 340px;
+        height: 481px;
+        border: 4PX SOLID black;
+        border-radius: 35px;
+    }
 }
 
 @media (max-width:902px) {
@@ -576,7 +560,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 250px;
         height: 10px;
         margin-top: 5px;
-        margin-left: 58px;
+        margin-left: 52px;
         background-color: rebeccapurple;
     }
     .skillline-2 {
@@ -584,7 +568,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 250px;
         height: 8px;
         margin-top: 5px;
-        margin-left: 76px;
+        margin-left: 66px;
         background-color: yellow;
     }
     .skillline-3 {
@@ -592,7 +576,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 150px;
         height: 8px;
         margin-top: 7px;
-        margin-left: 40px;
+        margin-left: 32px;
         background-color: coral;
     }
     .skillline-4 {
@@ -600,7 +584,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 200px;
         height: 8px;
         margin-top: 6px;
-        margin-left: 13px;
+        margin-left: 12px;
         background-color: red;
     }
     .skillline-5 {
@@ -609,7 +593,7 @@ border: 2px solid rgb(234, 27, 27);
         height: 8px;
         margin-top: 7px;
         background-color: #ec1a7773;
-        margin-left: 48px;
+        margin-left: 39px;
     }
     .skillline-6 {
         border: 2px solid #2196f3;
@@ -617,14 +601,14 @@ border: 2px solid rgb(234, 27, 27);
         height: 8px;
         margin-top: 7px;
         background-color: #ec1a7773;
-        margin-left: 48px;
+        margin-left: 36px;
     }
     .skillline-7 {
         border: 2px solid #ff5722;
         width: 250px;
         height: 8PX;
         margin-top: 6px;
-        margin-left: 35px;
+        margin-left: 29px;
         background-color: #ff9800;
     }
     .skillline-8 {
@@ -640,7 +624,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 100px;
         height: 5px;
         margin-top: 5px;
-        margin-left: 47px;
+        margin-left: 39px;
         background-color: fuchsia;
     }
     .skillline-10 {
@@ -648,7 +632,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 150px;
         height: 6px;
         margin-top: 5px;
-        margin-left: 76px;
+        margin-left: 69px;
         background-color: #8bc34a;
     }
     .skillline-11 {
@@ -656,7 +640,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 180px;
         height: 9px;
         margin-top: 6px;
-        margin-left: 23px;
+        margin-left: 16px;
         background-color: #b28922;
     }
     .skill-container {
@@ -714,7 +698,7 @@ border: 2px solid rgb(234, 27, 27);
     .skill-item {
         display: flex;
         padding: 0px;
-        font-size: 11px;
+        font-size: 13px;
         color: white;
         margin: 11px;
     }
@@ -737,7 +721,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 150px;
         height: 10px;
         margin-top: 5px;
-        margin-left: 58px;
+        margin-left: 53px;
         background-color: rebeccapurple;
     }
     .skillline-2 {
@@ -745,7 +729,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 150px;
         height: 8px;
         margin-top: 5px;
-        margin-left: 76px;
+        margin-left: 66px;
         background-color: yellow;
     }
     .skillline-3 {
@@ -753,7 +737,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 100px;
         height: 8px;
         margin-top: 7px;
-        margin-left: 40px;
+        margin-left: 32px;
         background-color: coral;
     }
     .skillline-4 {
@@ -761,7 +745,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 130px;
         height: 8px;
         margin-top: 6px;
-        margin-left: 13px;
+        margin-left: 12px;
         background-color: red;
     }
     .skillline-5 {
@@ -770,7 +754,7 @@ border: 2px solid rgb(234, 27, 27);
         height: 8px;
         margin-top: 7px;
         background-color: #ec1a7773;
-        margin-left: 48px;
+        margin-left: 39px;
     }
     .skillline-6 {
         border: 2px solid #2196f3;
@@ -778,14 +762,14 @@ border: 2px solid rgb(234, 27, 27);
         height: 8px;
         margin-top: 7px;
         background-color: #ec1a7773;
-        margin-left: 48px;
+        margin-left: 36px;
     }
     .skillline-7 {
         border: 2px solid #ff5722;
         width: 150px;
         height: 8PX;
         margin-top: 6px;
-        margin-left: 35px;
+        margin-left: 30px;
         background-color: #ff9800;
     }
     .skillline-8 {
@@ -799,9 +783,9 @@ border: 2px solid rgb(234, 27, 27);
     .skillline-9 {
         border: 2px solid hotpink;
         width: 50px;
-        height: 5px;
-        margin-top: 5px;
-        margin-left: 47px;
+        height: 7px;
+        margin-top: 6px;
+        margin-left: 38px;
         background-color: fuchsia;
     }
     .skillline-10 {
@@ -809,7 +793,7 @@ border: 2px solid rgb(234, 27, 27);
         width: 80px;
         height: 6px;
         margin-top: 5px;
-        margin-left: 76px;
+        margin-left: 67px;
         background-color: #8bc34a;
     }
     .skillline-11 {
@@ -817,11 +801,11 @@ border: 2px solid rgb(234, 27, 27);
         width: 110px;
         height: 9px;
         margin-top: 6px;
-        margin-left: 23px;
+        margin-left: 15px;
         background-color: #b28922;
     }
     .skills {
-        width: 281px;
+        width: 287px;
         border: 2px solid black;
         border-radius: 15px;
         background-color: black;
@@ -887,6 +871,7 @@ border: 2px solid rgb(234, 27, 27);
     }
     
 }
+
 @media (max-width:297px){
     .skill-container img {
         width: 247px;
@@ -894,12 +879,11 @@ border: 2px solid rgb(234, 27, 27);
         margin-left: 0px;
     }
     .skills {
-        width: 274px;
+        width: 280px;
         border: 2px solid black;
         border-radius: 15px;
         background-color: black;
         margin-right: 3px;
         margin-top: 47px;
     }
-    
 }

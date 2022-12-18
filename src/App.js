@@ -15,20 +15,21 @@ const App = () => {
 
   return (
     <div>
-     <GlobalStyle/>
-      <BrowserRouter>
-       <Navbar/>
-      <Routes>
-          <Route excat path="/About" element={<About />} />
-          <Route excat path="/" element={<Home />}/>
-          <Route excat path="/Service" element={<Service/>} />
-          <Route excat path="/Skill" element={<Skill />} />
-          <Route excat path="/Contact" element={<Contact/>} />
-          <Route excat path="*" element={<Error/>} />
+    <GlobalStyle/>
+    <BrowserRouter>
+    <Navbar/>
+   <Routes>
+       <Route excat path="/" element={<Home />}/> 
+       <Route excat path="/About" element={<About />} /> 
+       <Route excat path="/Service" element={<Service/>} />
+       <Route excat path="/Skill" element={<Skill />} />
+       <Route excat path="/Contact" element={<Contact/>} />
+       <Route excat path="*" element={<Error/>} />
 
-      </Routes>
-      <Footer/>
-      </BrowserRouter>
+   </Routes>
+   <Footer/>
+   </BrowserRouter>
+
     </div>
   )
 }

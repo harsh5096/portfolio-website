@@ -6,7 +6,7 @@ const About = () => {
     
     <div className="about-container">
       <div className="aboutimg">
-        <img src="./images/about.JPG" alt="" />
+        <img src="./images/about.jpg" alt="" />
       </div>
       <div className='about-me'>
         <h1>Hello I am Harsh Joshi</h1>
@@ -14,7 +14,7 @@ const About = () => {
        <h4> CLICK DOWNLOAD BUTTON  <i class="fa fa-arrow-right" aria-hidden="true"></i></h4>
      </p>
      
-       <a href="./images/resume.PNG" download= "computer" className="btn">Download cv
+       <a href="./images/resume.png" download= "computer" className="btn">Download cv
        <i class="fa fa-download" aria-hidden="true"></i>
        </a>
        </div>
